@@ -22,6 +22,8 @@
  * SOFTWARE.
  */
 
+/* See watch-library/shared/watch/watch-buzzer.h */
+
 #ifndef MOVEMENT_CUSTOM_SIGNAL_TUNES_H_
 #define MOVEMENT_CUSTOM_SIGNAL_TUNES_H_
 
@@ -82,5 +84,22 @@ int8_t signal_tune[] = {
     0
 };
 #endif // SIGNAL_TUNE_KIM_POSSIBLE
+
+#ifdef SIGNAL_TUNE_LAYLA
+int8_t signal_tune[] = {
+    BUZZER_NOTE_A6, 5,
+    BUZZER_NOTE_REST, 1,
+    BUZZER_NOTE_C7, 5,  
+    BUZZER_NOTE_REST, 1,
+    BUZZER_NOTE_D7, 5,
+    BUZZER_NOTE_REST, 1,
+    BUZZER_NOTE_F7, 5,
+    BUZZER_NOTE_REST, 1,
+    BUZZER_NOTE_D7, 5,
+    BUZZER_NOTE_REST, 1,
+    BUZZER_NOTE_D7, 10,
+    0
+};
+#endif // SIGNAL_TUNE_LAYLA
 
 #endif // MOVEMENT_CUSTOM_SIGNAL_TUNES_H_
