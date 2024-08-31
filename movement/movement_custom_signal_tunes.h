@@ -97,7 +97,7 @@ int8_t signal_tune[] = {
     BUZZER_NOTE_REST, 1,
     BUZZER_NOTE_D7, 5,
     BUZZER_NOTE_REST, 2,
-    BUZZER_NOTE_D7, 20,
+    BUZZER_NOTE_D7, 15,
     0
 };
 #endif // SIGNAL_TUNE_LAYLA
