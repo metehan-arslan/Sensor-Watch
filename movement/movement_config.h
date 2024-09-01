@@ -29,10 +29,10 @@
 
 const watch_face_t watch_faces[] = {
     simple_clock_face,
+    totp_face_lfs,
     stopwatch_face,
     finetune_face,
     nanosec_face,
-    totp_face_lfs,
     thermistor_readout_face,
     tempchart_face,
     activity_face,
@@ -42,6 +42,7 @@ const watch_face_t watch_faces[] = {
     morsecalc_face,
     sunrise_sunset_face,
     moon_phase_face,
+    tuning_tones_face,
     wyoscan_face,
 //    totp_face,
     set_time_face,
@@ -65,7 +66,9 @@ const watch_face_t watch_faces[] = {
 // #define SIGNAL_TUNE_MARIO_THEME
 // #define SIGNAL_TUNE_ZELDA_SECRET
 // #define SIGNAL_TUNE_KIM_POSSIBLE
-#define SIGNAL_TUNE_LAYLA
+// #define SIGNAL_TUNE_LAYLA
+#define SIGNAL_TUNE_POWER_RANGERS
+
 
 /* Determines the intensity of the led colors
  * Set a hex value 0-15 with 0x0 being off and 0xF being max intensity
